@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" type="text/css" href="Styles/AgroCraft.css">	 -->
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<a href="https://icons8.com/icon/83325/roman-soldier"></a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/c587fc1763.js" crossorigin="anonymous"></script>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+#welcome{
+	color:rgb(13, 135, 13);
+	font-size: 30px;
+	font-family: 'Cormorant Infant', serif;
+  text-shadow: 1px 1px 2px rgb(9, 79, 4);
+  margin-bottom:5%;
+	
+}
+#digital{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Cormorant Infant', serif;
+    color:rgb(28, 105, 9);
+    text-shadow: 1px 2px 3px rgb(9, 79, 4);
+    margin-bottom :8%;
+}
+#are{
+    margin-bottom: 5%;
+    font-size: 30px;
+    color:rgb(12, 139, 12);
+    font-family: 'Cormorant Infant', serif;
+    text-shadow: 1px 1px 2px rgb(9, 79, 4);
+}
+
+.bg-image {
+  background-image: url("b5.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  /* background-color: rgb(0,0,0);  */
+  background-color: rgba(0,0,0, 0.1); 
+  color: rgb(15, 147, 20);
+  text-shadow: 1px 2px 3px rgb(9, 79, 4);
+  font-weight: bold;
+  border: 1px ridge #d5dfd5;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+#linebreak{
+	display:block;
+	margin-bottom: 0.5em;
+}
+
+ #Farmerbutton{
+	align-items: center;
+  font-family: 'Cormorant Infant', serif;
+  background-color:transparent;
+	font-size: 25px;
+	margin-right: 25px;	
+  text-shadow: 1px 2px 3px rgb(9, 79, 4);
+}
+ #Buyerbutton{
+  font-family: 'Cormorant Infant', serif;
+	align-items: center;
+	background-color:transparent;
+	font-size: 25px;
+	margin-left: 25px;
+  text-shadow: 1px 2px 3px rgb(9, 79, 4);
+	
+} 
+#link {
+  font-family: 'Cormorant Infant', serif;
+	color:rgb(39, 146, 27);
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px rgb(9, 79, 4);
+}
+#link:hover{
+	color:rgb(21, 132, 9);
+	text-decoration: none;
+	border:2px ridge rgb(2, 39, 1);
+	border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(2, 63, 5);
+  padding:5px; 
+}
+</style>
+</head>
+<body>
+
+<div class="bg-image" ></div>
+
+<div class="bg-text">
+  <div id ="welcome" >WELCOME TO</div>
+  <div> <span id="digital"> DIGITAL  AGRIMARKET</span></div><br>
+  <div id="are" >LOGIN AS A</div>
+	    <span id="linebreak" ></span>  
+	    <label id="Farmerbutton" ><a id = "link" href="auth/FarmerLogin.php">FARMER</a></label>
+	    <label id="Buyerbutton" ><a id = "link" href="auth/BuyerLogin.php">BUYER</a></label>   
+</div>
+
+</body>
+</html>
+
